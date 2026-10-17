@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Pac-Man</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="game.js" defer></script>
+</head>
+<body>
+    <main class="game-container">
+        <h1>PAC-MAN</h1>
+
+        <div class="scoreboard">
+            <span>Score: <span id="score">0</span></span>
+            <span>Lives: <span id="lives">3</span></span>
+        </div>
+
+        
+<div class="canvas-wrap">
+    <canvas id="gameCanvas" width="560" height="560">
+        Your browser does not support HTML Canvas.
+    </canvas>
+
+    <div id="menuOverlay" class="menu-overlay">
+        <h2>PAC-MAN</h2>
+        <p>Ready for a challenge?</p>
+        <button id="startButton">PLAY GAME</button>
+        <p class="menu-hint">Arrow keys or WASD to move</p>
+    </div>
+</div>
+
+
+
+        <p class="instructions">
+            Move with the arrow keys or WASD.
+        </p>
+    </main>
+</body>
+</html>
